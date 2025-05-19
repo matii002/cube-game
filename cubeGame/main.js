@@ -6,7 +6,7 @@ let elapsedTime = 0;
 
 const scene = new THREE.Scene();
 
-const ambientLight = new THREE.AmbientLight(0xffffff, 0.5); // kolor, intensywność
+const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
 scene.add(ambientLight);
 
 const camera = new THREE.PerspectiveCamera(
